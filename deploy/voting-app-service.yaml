@@ -5,6 +5,7 @@ metadata:
   labels:
     name: voting-service
     app: demo-voting-app
+    namespace: testns
 spec:
   type: NodePort
   ports:
